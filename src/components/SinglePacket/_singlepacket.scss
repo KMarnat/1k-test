@@ -1,0 +1,40 @@
+/* SinglePacket styles
+---------------------- */
+.single-packet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 17rem;
+
+  &__image {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    color: var(--main-clr);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  &__desc {
+    margin-bottom: 1rem;
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-clr);
+    margin-bottom: 1rem;
+  }
+}
+
+@media #{$breakpoint-tablet-portrait} {
+  .active {
+    display: flex;
+  }
+
+  .inactive {
+    display: none;
+  }
+}

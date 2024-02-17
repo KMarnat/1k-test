@@ -1,0 +1,21 @@
+/* Comment component
+----------------------- */
+.comment {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+
+  p {
+    max-width: 60rem;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  @media #{$breakpoint-tablet-portrait} {
+    padding: 1.5rem;
+  }
+}

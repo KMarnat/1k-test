@@ -1,0 +1,11 @@
+@import "./styles/reset";
+@import "./styles/app";
+@import "./styles/typography";
+/* Components */
+@import "./components/Banner/banner";
+@import "./components/Packets/packets";
+@import "./components/Comment/comment";
+@import "./components/Footer/footer";
+@import "./components/SinglePacket/singlepacket";
+@import "./components/Tabs/tabs";
+@import "./components/Button/button";

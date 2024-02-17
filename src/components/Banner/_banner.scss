@@ -1,0 +1,41 @@
+/* Banner styles
+-------------------[ */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/assets/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 5rem 2rem;
+
+  &__logo {
+    width: 4.5rem;
+    margin: 1rem 0;
+  }
+
+  &__title {
+    margin-bottom: 3.5rem;
+  }
+
+  &__quote {
+    max-width: 25rem;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.1rem;
+    font-weight: 300;
+
+    span {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      margin-right: 0.5rem;
+    }
+  }
+
+  @media #{$breakpoint-tablet-portrait} {
+    // padding: 5rem 3rem;
+  }
+}
